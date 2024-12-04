@@ -33,4 +33,5 @@ function startGame() {
   for (let i = 1; i <= 10; i++) {
     game.fillText(emojis['X'], elementsSize, elementsSize * i);
   }
+  
 }
